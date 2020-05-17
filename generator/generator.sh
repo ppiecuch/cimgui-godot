@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/bash
 
 # this script must be executed in this directory
 # all the output goes to generator/output folder
@@ -15,4 +15,6 @@
 # arg[1] compiler name gcc, clang, or cl
 # arg[2] imgui_internal functions generation: true or false
 # arg[3..n] name of implementations to generate
-luajit ./generator.lua gcc true glfw opengl3 opengl2 sdl
+
+#luajit ./generator.lua gcc true glfw opengl3 opengl2 sdl
+./bin/luajit ./generator.lua clang true

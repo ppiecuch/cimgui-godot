@@ -16550,7 +16550,7 @@ defs["igPlotHistogram"][1]["argsT"][8]["type"] = "ImVec2"
 defs["igPlotHistogram"][1]["argsT"][9] = {}
 defs["igPlotHistogram"][1]["argsT"][9]["name"] = "stride"
 defs["igPlotHistogram"][1]["argsT"][9]["type"] = "int"
-defs["igPlotHistogram"][1]["argsoriginal"] = "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282346638528859811704183484516925e+38F,float scale_max=3.40282346638528859811704183484516925e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))"
+defs["igPlotHistogram"][1]["argsoriginal"] = "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))"
 defs["igPlotHistogram"][1]["call_args"] = "(label,values,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size,stride)"
 defs["igPlotHistogram"][1]["cimguiname"] = "igPlotHistogram"
 defs["igPlotHistogram"][1]["defaults"] = {}
@@ -16598,7 +16598,7 @@ defs["igPlotHistogram"][2]["argsT"][8]["type"] = "float"
 defs["igPlotHistogram"][2]["argsT"][9] = {}
 defs["igPlotHistogram"][2]["argsT"][9]["name"] = "graph_size"
 defs["igPlotHistogram"][2]["argsT"][9]["type"] = "ImVec2"
-defs["igPlotHistogram"][2]["argsoriginal"] = "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282346638528859811704183484516925e+38F,float scale_max=3.40282346638528859811704183484516925e+38F,ImVec2 graph_size=ImVec2(0,0))"
+defs["igPlotHistogram"][2]["argsoriginal"] = "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0))"
 defs["igPlotHistogram"][2]["call_args"] = "(label,values_getter,data,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size)"
 defs["igPlotHistogram"][2]["cimguiname"] = "igPlotHistogram"
 defs["igPlotHistogram"][2]["defaults"] = {}
@@ -16646,7 +16646,7 @@ defs["igPlotLines"][1]["argsT"][8]["type"] = "ImVec2"
 defs["igPlotLines"][1]["argsT"][9] = {}
 defs["igPlotLines"][1]["argsT"][9]["name"] = "stride"
 defs["igPlotLines"][1]["argsT"][9]["type"] = "int"
-defs["igPlotLines"][1]["argsoriginal"] = "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282346638528859811704183484516925e+38F,float scale_max=3.40282346638528859811704183484516925e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))"
+defs["igPlotLines"][1]["argsoriginal"] = "(const char* label,const float* values,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0),int stride=sizeof(float))"
 defs["igPlotLines"][1]["call_args"] = "(label,values,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size,stride)"
 defs["igPlotLines"][1]["cimguiname"] = "igPlotLines"
 defs["igPlotLines"][1]["defaults"] = {}
@@ -16694,7 +16694,7 @@ defs["igPlotLines"][2]["argsT"][8]["type"] = "float"
 defs["igPlotLines"][2]["argsT"][9] = {}
 defs["igPlotLines"][2]["argsT"][9]["name"] = "graph_size"
 defs["igPlotLines"][2]["argsT"][9]["type"] = "ImVec2"
-defs["igPlotLines"][2]["argsoriginal"] = "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282346638528859811704183484516925e+38F,float scale_max=3.40282346638528859811704183484516925e+38F,ImVec2 graph_size=ImVec2(0,0))"
+defs["igPlotLines"][2]["argsoriginal"] = "(const char* label,float(*values_getter)(void* data,int idx),void* data,int values_count,int values_offset=0,const char* overlay_text=((void*)0),float scale_min=3.40282347e+38F,float scale_max=3.40282347e+38F,ImVec2 graph_size=ImVec2(0,0))"
 defs["igPlotLines"][2]["call_args"] = "(label,values_getter,data,values_count,values_offset,overlay_text,scale_min,scale_max,graph_size)"
 defs["igPlotLines"][2]["cimguiname"] = "igPlotLines"
 defs["igPlotLines"][2]["defaults"] = {}
